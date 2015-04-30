@@ -1,4 +1,4 @@
-#	Copyright (C) 2015 Matt Booth (Kryten2k35).
+#	Copyright (C) 2015 Nicholas Chum (nicholaschum) and Matt Booth (Kryten2k35).
 # 
 # 	Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
 # 	(the "License") you may not use this file except in compliance with the License.

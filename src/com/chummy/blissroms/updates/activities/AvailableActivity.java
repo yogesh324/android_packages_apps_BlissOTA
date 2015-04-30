@@ -155,7 +155,11 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 			if (!Tools.isRootAvailable()) {
 				mRebootManualDialog.show();
 			} else {
-				mRebootDialog.show();
+                if (Preferences.getORSEnabled(mContext)) {
+                    new GenerateRecoveryScript(mContext).execute();
+                } else {
+                    Tools.recovery(mContext);
+                }
 			}    
 			return true;
 		default:
@@ -236,7 +240,11 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 			if (!Tools.isRootAvailable()) {
 				mRebootManualDialog.show();
 			} else {
-				mRebootDialog.show();
+                if (Preferences.getORSEnabled(mContext)) {
+                    new GenerateRecoveryScript(mContext).execute();
+                } else {
+                    Tools.recovery(mContext);
+                }
 			}		
 			break;
 		case R.id.menu_available_download:
@@ -272,27 +280,6 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 					setupMenuToolbar(); // Reset options menu
 				} else {
 					invalidateMenu();
-				}
-			}
-		}).setNegativeButton(R.string.cancel, null);
-
-		mRebootDialog = new AlertDialog.Builder(mContext);
-		mRebootDialog.setTitle(R.string.are_you_sure)
-		.setMessage(R.string.available_reboot_confirm)
-		.setPositiveButton(R.string.ok, new OnClickListener() {
-
-			@Override
-			public void onClick(DialogInterface dialog, int which) {
-				if (DEBUGGING)
-					Log.d(TAG,
-							"ORS is "
-									+ Preferences
-									.getORSEnabled(mContext));
-
-				if (Preferences.getORSEnabled(mContext)) {
-					new GenerateRecoveryScript(mContext).execute();
-				} else {
-					Tools.recovery(mContext);
 				}
 			}
 		}).setNegativeButton(R.string.cancel, null);
