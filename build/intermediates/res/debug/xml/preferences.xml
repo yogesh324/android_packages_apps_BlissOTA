@@ -102,5 +102,5 @@
         android:key="current_theme"
         android:summary="@string/list_summary"
         android:title="@string/theme" />
-    
+
 </PreferenceScreen><!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/xml/preferences.xml -->
