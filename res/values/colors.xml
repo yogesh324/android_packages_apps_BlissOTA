@@ -22,8 +22,8 @@
     <color name="separator_dark">#ff333333</color>
     <color name="separator_light">#ffdddddd</color>
 
-    <color name="material_primary">@color/blue</color>
-    <color name="material_primary_dark">@color/dark_blue</color>
+    <color name="material_primary">#057fd1</color>
+    <color name="material_primary_dark">#0369ad</color>
     <color name="accent_material_light">@color/blue</color>
     <color name="accent_material_dark">@android:color/white</color>
 

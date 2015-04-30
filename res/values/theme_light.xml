@@ -42,8 +42,8 @@
 
     <style name="Theme.Light.Settings" parent="@style/Theme.Light">
         <item name="android:colorAccent">@color/blue</item>
-        <item name="android:colorPrimary">@color/blue</item>
-        <item name="android:colorPrimaryDark">@color/dark_blue</item>
+        <item name="android:colorPrimary">@color/material_primary</item>
+        <item name="android:colorPrimaryDark">@color/material_primary_dark</item>
         <item name="android:windowNoTitle">false</item>
         <item name="android:windowActionBar">true</item>
     </style>
