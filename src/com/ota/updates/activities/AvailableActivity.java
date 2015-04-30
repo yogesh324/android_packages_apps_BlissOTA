@@ -109,7 +109,6 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 		setupUpdateNameInfo();
 		setupProgress(mContext);
 		setupMd5Info();
-		setupRomHut();
 		setupChangeLog();
 		if (Utils.isLollipop()) {
 			setupMenuToolbar();
@@ -369,26 +368,6 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 		changelogView.setText(string);
 		changelogView.setMovementMethod(LinkMovementMethod.getInstance());
 	}
-	
-	private void setupRomHut() {
-		String romHutText = RomUpdate.getRomHut(mContext);
-		boolean isRomHut = romHutText != null;
-		if (isRomHut) {
-			TextView sponsoredBy = (TextView) findViewById(R.id.tv_available_romhut);
-			sponsoredBy.setText(romHutText);
-			if (Utils.isLollipop()) {	
-				int color;
-				if (Preferences.getCurrentTheme(mContext) == 0) { // Light
-					color = getResources().getColor(R.color.material_deep_teal_500);
-				} else {
-					color = getResources().getColor(R.color.material_deep_teal_200);
-				}
-				sponsoredBy.setTextColor(color);
-			} else {
-				sponsoredBy.setTextColor(getResources().getColor(R.color.holo_blue_light));
-			}
-		}
-	}
 
 	private void setupUpdateNameInfo() {
 		boolean isDownloadOnGoing = Preferences.getIsDownloadOnGoing(mContext);
@@ -405,7 +384,7 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 			}
 			updateNameInfoText.setTextColor(color);
 		} else {
-			updateNameInfoText.setTextColor(getResources().getColor(R.color.holo_blue_light));
+			updateNameInfoText.setTextColor(getResources().getColor(R.color.grey));
 		}
 		
 		if (isDownloadOnGoing) {
@@ -481,7 +460,7 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 				}
 				mProgressCounterText.setTextColor(color);
 			} else {
-				mProgressCounterText.setTextColor(res.getColor(R.color.holo_blue_light));
+				mProgressCounterText.setTextColor(res.getColor(R.color.grey));
 			}
 			mProgressCounterText.setText(ready);
 			mProgressBar.setProgress(100);

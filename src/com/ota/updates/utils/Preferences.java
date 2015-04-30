@@ -116,16 +116,14 @@ public class Preferences implements Constants{
         switch(getCurrentTheme(context))
         {
         case 0:
-            return R.style.Theme_RagnarLight;
-        case 1:
-            return R.style.Theme_RagnarLight_DarkActionBar;
+            return R.style.Theme_Light;
         case 2:
-            return R.style.Theme_RagnarDark;
+            return R.style.Theme_Dark;
         default:
         	if (Utils.isLollipop()) {
-        		return R.style.Theme_RagnarLight;
+        		return R.style.Theme_Light;
         	} else {
-        		return R.style.Theme_RagnarDark;
+        		return R.style.Theme_Dark;
         	}
         }
     }
@@ -136,8 +134,6 @@ public class Preferences implements Constants{
         {
         case 0:
             return R.style.Theme_RagnarLight_Settings;
-        case 1:
-            return R.style.Theme_RagnarLight_DarkActionBar_Settings;
         case 2:
             return R.style.Theme_RagnarDark_Settings;
         default:

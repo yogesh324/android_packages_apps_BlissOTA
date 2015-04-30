@@ -50,9 +50,12 @@
     </string-array>
     <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/colors.xml -->
     <eat-comment/>
+    <color name="accent_material_dark">@android:color/white</color>
+    <color name="accent_material_light">@color/blue</color>
     <color name="black">#ff000000</color>
-    <color name="card_background_holo_dark">#80000000</color>
-    <color name="card_background_holo_light">@color/white</color>
+    <color name="blue">#057fd1</color>
+    <color name="card_background_material_dark">#4a212021</color>
+    <color name="card_background_material_light">@android:color/white</color>
     <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="cardview_dark_background">#FF202020</color>
@@ -73,18 +76,29 @@
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
     <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/colors.xml -->
     <eat-comment/>
+    <color name="dark_blue">#0369ad</color>
     <color name="dark_grey">#ff333333</color>
     <color name="grey">#ffcccccc</color>
-    <color name="holo_blue_bright">#ff00ddff</color>
-    <color name="holo_blue_dark">#ff0099cc</color>
-    <color name="holo_blue_light">#ff33b5e5</color>
-    <color name="holo_green_dark">#ff669900</color>
-    <color name="holo_green_light">#ff99cc00</color>
-    <color name="holo_orange_dark">#ffff8800</color>
-    <color name="holo_orange_light">#ffffbb33</color>
-    <color name="holo_purple">#ffaa66cc</color>
-    <color name="holo_red_dark">#ffcc0000</color>
-    <color name="holo_red_light">#ffff4444</color>
+    <color name="material_background_dark">#000000</color>
+    <color name="material_background_light">@android:color/white</color>
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_cyan_500">#ff00bcd4</color>
+    <color name="material_dark_primary">#057fd1</color>
+    <color name="material_dark_primary_dark">#0369ad</color>
+    <color name="material_deep_teal_200">#ff777777</color>
+    <color name="material_deep_teal_500">#ff009688</color>
+    <color name="material_light_green_200">#ffc5e1a5</color>
+    <color name="material_light_green_500">#ff8bC34a</color>
+    <color name="material_primary">@color/blue</color>
+    <color name="material_primary_dark">@color/dark_blue</color>
+    <color name="material_red_200">#ffef9a9a</color>
+    <color name="material_red_500">#fff44336</color>
+    <color name="primary_text_material_dark">#ffffffff</color>
+    <color name="primary_text_material_light">#de000000</color>
+    <color name="ripple_material_dark">#40ffffff</color>
+    <color name="ripple_material_light">#40000000</color>
+    <color name="secondary_text_material_dark">#b3ffffff</color>
+    <color name="secondary_text_material_light">#8a000000</color>
     <color name="separator_dark">#ff333333</color>
     <color name="separator_light">#ffdddddd</color>
     <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_colors.xml -->
@@ -363,29 +377,6 @@
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
     </style>
-    <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/theme_ragnardark.xml -->
-    <eat-comment/>
-    <style name="ActionBar.Solid.RagnarDark" parent="@android:style/Widget.Holo.ActionBar.Solid">
-        <item name="android:background">@drawable/ab_solid_holo_dark</item>
-        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_holo_dark</item>
-        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_holo_dark</item>
-    </style>
-    <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/theme_ragnarlight.xml -->
-    <eat-comment/>
-    <style name="ActionBar.Solid.RagnarLight" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
-        <item name="android:background">@drawable/ab_solid_holo_light</item>
-        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_holo_light</item>
-        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_holo_light</item>
-    </style>
-    <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/theme_ragnarlightdarkaction.xml -->
-    <eat-comment/>
-    <style name="ActionBar.Solid.RagnarLight.DarkActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/ab_solid_holo_dark</item>
-        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_holo_dark</item>
-        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_holo_dark</item>
-    </style>
-    <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/styles.xml -->
-    <eat-comment/>
     <style name="CardStyle.Dark" parent="@style/CardView.Dark">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -433,6 +424,41 @@
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
     </style>
+    <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/theme_ragnardark.xml -->
+    <eat-comment/>
+    <style name="Theme.Dark" parent="@android:style/Theme.Material">
+        <item name="noUpdateAvailable">@color/material_red_500</item>
+        <item name="updateAvailable">@color/material_light_green_500</item>
+        <item name="settingsIcon">@drawable/ic_settings_dark</item>
+        <item name="downloadIcon">@drawable/drawable_download</item>
+        <item name="browserIcon">@drawable/drawable_website</item>
+        <item name="donateIcon">@drawable/drawable_donate</item>
+        <item name="checkIcon">@drawable/drawable_check</item>
+        <item name="addonsIcon">@drawable/drawable_addon</item>
+        <item name="separator">@color/separator_dark</item>
+        <item name="backgroundRippleSelector">@drawable/ripple_selector_dark</item>
+        <item name="android:colorPrimary">@color/material_primary</item>
+        <item name="android:colorPrimaryDark">@color/material_primary_dark</item>
+        <item name="colorPrimary">@color/material_primary</item>
+        <item name="colorPrimaryDark">@color/material_primary_dark</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorAccent">@color/accent_material_dark</item>
+        <item name="cardBackground">@color/card_background_material_dark</item>
+        <item name="textColorPrimary">@color/primary_text_material_dark</item>
+        <item name="textColorSecondary">@color/secondary_text_material_dark</item>
+        <item name="materialAccent">@color/accent_material_dark</item>
+        <item name="cardStyle">@style/CardStyle.Dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+    </style>
+    <style name="Theme.Dark.Settings" parent="Theme.Dark">
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:colorPrimary">@color/blue</item>
+        <item name="android:colorPrimaryDark">@color/dark_blue</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
     <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_iap_style.xml -->
     <eat-comment/>
     <style name="Theme.IAPTheme" parent="android:Theme">
@@ -443,83 +469,39 @@
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
-    <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/theme_ragnardark.xml -->
-    <eat-comment/>
-    <style name="Theme.RagnarDark" parent="@android:style/Theme.Holo">
-        <item name="android:windowBackground">@drawable/holo_background_dark</item>
-        <item name="android:actionBarStyle">@style/ActionBar.Solid.RagnarDark</item>
-
-        <!-- Styleables -->
-        <item name="noUpdateAvailable">@color/holo_red_dark</item>
-        <item name="updateAvailable">@color/holo_green_dark</item>
-        <item name="colorHoloBlue">@color/holo_blue_light</item>
-        <item name="helpIcon">@drawable/ic_about_dark</item>
-        <item name="settingsIcon">@drawable/ic_settings_dark</item>
-        <item name="downloadIcon">@drawable/ic_download_dark</item>
-        <item name="browserIcon">@drawable/ic_web_site_dark</item>
-        <item name="donateIcon">@drawable/ic_donate_dark</item>
-        <item name="addonsIcon">@drawable/ic_addon_dark</item>
-        <item name="checkIcon">@drawable/ic_check_dark</item>
-        <item name="separator">@color/separator_dark</item>
-        <item name="backgroundSelector">@drawable/list_selector_holo_dark</item>
-        <item name="cardBackground">@color/card_background_holo_dark</item>
-        <item name="cardStyle">@style/CardStyle.Dark</item>
-        <item name="textColorPrimary">@color/white</item>
-        <item name="textColorSecondary">@color/grey</item>
-    </style>
-    <style name="Theme.RagnarDark.Settings" parent="Theme.RagnarDark"/>
     <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/theme_ragnarlight.xml -->
     <eat-comment/>
-    <style name="Theme.RagnarLight" parent="@android:style/Theme.Holo.Light">
-        <item name="android:windowBackground">@drawable/holo_background_light</item>
-        <item name="android:actionBarStyle">@style/ActionBar.Solid.RagnarLight</item>
-
-        <!-- Styleables -->
-        <item name="noUpdateAvailable">@color/holo_red_light</item>
-        <item name="updateAvailable">@color/holo_green_light</item>
-        <item name="colorHoloBlue">@color/holo_blue_dark</item>
-        <item name="helpIcon">@drawable/ic_about_light</item>
-        <item name="settingsIcon">@drawable/ic_settings_light</item>
-        <item name="downloadIcon">@drawable/ic_download_light</item>
-        <item name="browserIcon">@drawable/ic_web_site_light</item>
-        <item name="donateIcon">@drawable/ic_donate_light</item>
-        <item name="addonsIcon">@drawable/ic_addon_light</item>
-        <item name="checkIcon">@drawable/ic_check_light</item>
-        <item name="separator">@color/separator_light</item>
-        <item name="backgroundSelector">@drawable/list_selector_holo_light</item>
-        <item name="cardBackground">@color/card_background_holo_light</item>
-        <item name="cardStyle">@style/CardStyle.Light</item>
-        <item name="textColorPrimary">@color/black</item>
-        <item name="textColorSecondary">@color/dark_grey</item>
-    </style>
-    <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/theme_ragnarlightdarkaction.xml -->
-    <eat-comment/>
-    <style name="Theme.RagnarLight.DarkActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:windowBackground">@drawable/holo_background_light</item>
-        <item name="android:actionBarStyle">@style/ActionBar.Solid.RagnarLight.DarkActionBar</item>
-	
-        <!-- Styleables -->
-        <item name="noUpdateAvailable">@color/holo_red_light</item>
-        <item name="updateAvailable">@color/holo_green_light</item>
-        <item name="colorHoloBlue">@color/holo_blue_dark</item>
-        <item name="helpIcon">@drawable/ic_about_dark</item>
+    <style name="Theme.Light" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="noUpdateAvailable">@color/material_red_500</item>
+        <item name="updateAvailable">@color/material_light_green_500</item>
         <item name="settingsIcon">@drawable/ic_settings_dark</item>
-        <item name="downloadIcon">@drawable/ic_download_light</item>
-        <item name="browserIcon">@drawable/ic_web_site_light</item>
-        <item name="donateIcon">@drawable/ic_donate_light</item>
-        <item name="addonsIcon">@drawable/ic_addon_light</item>
-        <item name="checkIcon">@drawable/ic_check_light</item>
+        <item name="downloadIcon">@drawable/drawable_download</item>
+        <item name="browserIcon">@drawable/drawable_website</item>
+        <item name="donateIcon">@drawable/drawable_donate</item>
+        <item name="checkIcon">@drawable/drawable_check</item>
+        <item name="addonsIcon">@drawable/drawable_addon</item>
         <item name="separator">@color/separator_light</item>
-        <item name="backgroundSelector">@drawable/list_selector_holo_light</item>
-        <item name="cardBackground">@color/card_background_holo_light</item>
+        <item name="backgroundRippleSelector">@drawable/ripple_selector_light</item>
+        <item name="android:colorPrimary">@color/material_primary</item>
+        <item name="android:colorPrimaryDark">@color/material_primary_dark</item>
+        <item name="colorPrimary">@color/material_primary</item>
+        <item name="colorPrimaryDark">@color/material_primary_dark</item>
+        <item name="android:colorAccent">@color/accent_material_light</item>
+        <item name="cardBackground">@color/card_background_material_light</item>
         <item name="cardStyle">@style/CardStyle.Light</item>
-        <item name="textColorPrimary">@color/black</item>
-        <item name="textColorSecondary">@color/dark_grey</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="textColorPrimary">@color/primary_text_material_light</item>
+        <item name="textColorSecondary">@color/secondary_text_material_light</item>
+        <item name="materialAccent">@color/accent_material_light</item>
     </style>
-    <style name="Theme.RagnarLight.DarkActionBar.Settings" parent="Theme.RagnarLight.DarkActionBar"/>
-    <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/res/values/theme_ragnarlight.xml -->
-    <eat-comment/>
-    <style name="Theme.RagnarLight.Settings" parent="Theme.RagnarLight"/>
+    <style name="Theme.Light.Settings" parent="@style/Theme.Light">
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:colorPrimary">@color/blue</item>
+        <item name="android:colorPrimaryDark">@color/dark_blue</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
     <!-- From: file:/C:/Users/Nicholas/Documents/GitHub/OTAUpdates/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_styles.xml -->
     <eat-comment/>
     <style name="WalletFragmentDefaultButtonTextAppearance">
