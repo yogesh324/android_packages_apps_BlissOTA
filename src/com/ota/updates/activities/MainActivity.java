@@ -298,9 +298,9 @@ public class MainActivity extends Activity implements Constants{
 				String htmlColorOpen = "";
 				if (isLollipop) {
 					if (Preferences.getCurrentTheme(mContext) == 0) { // Light
-						htmlColorOpen = "<font color='#009688'>";
+						htmlColorOpen = "<font color='#1f1f1f'>";
 					} else {
-						htmlColorOpen = "<font color='#80cbc4'>";
+						htmlColorOpen = "<font color='#eeeeee'>";
 					}
 				} else {
 					htmlColorOpen = "<font color='#33b5e5'>";
@@ -318,9 +318,9 @@ public class MainActivity extends Activity implements Constants{
 				String htmlColorOpen = "";
 				if (isLollipop) {
 					if (Preferences.getCurrentTheme(mContext) == 0) { // Light
-						htmlColorOpen = "<font color='#009688'>";
+						htmlColorOpen = "<font color='#1f1f1f'>";
 					} else {
-						htmlColorOpen = "<font color='#80cbc4'>";
+						htmlColorOpen = "<font color='#eeeeee'>";
 					}
 				} else {
 					htmlColorOpen = "<font color='#33b5e5'>";
@@ -335,9 +335,9 @@ public class MainActivity extends Activity implements Constants{
 				String htmlColorOpen = "";
 				if (isLollipop) {
 					if (Preferences.getCurrentTheme(mContext) == 0) { // Light
-						htmlColorOpen = "<font color='#009688'>";
+						htmlColorOpen = "<font color='#1f1f1f'>";
 					} else {
-						htmlColorOpen = "<font color='#80cbc4'>";
+						htmlColorOpen = "<font color='#eeeeee'>";
 					}
 				} else {
 					htmlColorOpen = "<font color='#33b5e5'>";
@@ -403,9 +403,9 @@ public class MainActivity extends Activity implements Constants{
 		String htmlColorOpen = "";
 		if (isLollipop) {
 			if (Preferences.getCurrentTheme(mContext) == 0) { // Light
-				htmlColorOpen = "<font color='#009688'>";
+				htmlColorOpen = "<font color='#1f1f1f'>";
 			} else {
-				htmlColorOpen = "<font color='#80cbc4'>";
+				htmlColorOpen = "<font color='#eeeeee'>";
 			}
 		} else {
 			htmlColorOpen = "<font color='#33b5e5'>";
