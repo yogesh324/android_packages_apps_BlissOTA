@@ -493,11 +493,6 @@ public class MainActivity extends Activity implements Constants{
 		Intent intent = new Intent(mContext, SettingsActivity.class);
 		startActivity(intent);
 	}
-
-	public void openHelp (View v) {
-		Intent intent = new Intent(mContext, AboutActivity.class);
-		startActivity(intent);
-	}
 	
 	public static void updateProgress(int progress, int downloaded, int total, Context context) {
 		//mProgressBar = (ProgressBar) ((Activity) context).findViewById(R.id.bar_main_progress_bar);

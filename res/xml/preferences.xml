@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- 	Copyright (C) 2015 Matt Booth (Kryten2k35).
- 
- 	Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
+ 	Copyright (C) 2015 Nicholas Chum (nicholaschum) and Matt Booth (Kryten2k35).
+
+ 	Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International
  	(the "License") you may not use this file except in compliance with the License.
  	You may obtain a copy of the License at
- 
+
  		http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
- 
+
  	Unless required by applicable law or agreed to in writing, software
  	distributed under the License is distributed on an "AS IS" BASIS,
 	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -24,7 +24,7 @@
     <SwitchPreference
         android:defaultValue="false"
         android:key="updater_twrp_ors"
-        android:summary="@string/twrp_ors_summary"
+        android:summary="@string/twrp_ors_information"
         android:title="@string/twrp_ors_title" />
 
     <Preference
@@ -32,12 +32,6 @@
         android:key="install_prefs"
         android:summary="@string/twrp_ors_install_prefs_summary"
         android:title="@string/twrp_ors_install_prefs" />
-    <Preference
-        android:dependency="updater_twrp_ors"
-        android:key="updater_twrp_ors_information"
-        android:selectable="false"
-        android:summary="@string/twrp_ors_information"
-        android:title="@string/information" />
 
     <!-- Background update service -->
     <PreferenceCategory
@@ -93,7 +87,7 @@
     <!-- App Theme -->
     <PreferenceCategory
         android:key="updater_theme_cat"
-        android:title="@string/theme" />
+        android:title="@string/theme_title" />
 
     <ListPreference
         android:defaultValue="0"
@@ -103,4 +97,12 @@
         android:summary="@string/list_summary"
         android:title="@string/theme" />
 
+    <!-- App Theme -->
+    <PreferenceCategory
+        android:key="credits"
+        android:title="@string/credits_title" />
+
+    <Preference
+        android:selectable="false"
+        android:summary="@string/credits_description" />
 </PreferenceScreen>
