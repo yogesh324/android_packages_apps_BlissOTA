@@ -16,12 +16,6 @@
 -->
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-  
-    <item android:icon="?attr/helpIcon" 
-        android:id="@+id/menu_info" 
-        android:orderInCategory="99"
-        android:showAsAction="ifRoom" 
-        android:title="@string/menu_info" />
     
     <item android:icon="?attr/settingsIcon" 
         android:id="@+id/menu_settings" 

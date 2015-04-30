@@ -192,9 +192,6 @@ public class MainActivity extends Activity implements Constants{
 		// Handle item selection
 		if (isLollipop)
 			switch (item.getItemId()) {
-			case R.id.menu_info:
-				openHelp(null);
-				return true;
 			case R.id.menu_settings:
 				openSettings(null);
 				return true;
