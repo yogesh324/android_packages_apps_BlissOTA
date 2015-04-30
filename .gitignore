@@ -4,5 +4,6 @@ gradle/
 gradlew.bat
 gradlew
 .settings/
+build
 build/
 build/intermediates/
