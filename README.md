@@ -1,46 +1,24 @@
-# OTAUpdates
+# Maintainers, your ROM must be set up to include these or else it would not work properly:
 
+1. A place to host your ROM addons to be placed into ota.xml (Default goes to http://downloads.blissroms.com/Add-ons/addons.xml but you can make your own)
+3. A place to host your update info (Add it into http://downloads.blissroms.com/BlissPop/Official/modelname/ota.xml)
+3. Build.prop entries (To ensure compatibility/non-compatible dialogs from showing up)
 
-A useful tool to help ROM developers provide OTA updates to their users. It's free to use, you can build from source or use the APK provided.
+# OTA.XML Template
 
-# Requirements
+As of April 1st, 2015, the Bliss build code will have ota.xml support to structure it for you, as well as place it in your correct directory.
 
+# ADDONS.XML Template
 
-1. Root - Not essential, but you will most likely have this anyway
-2. A place to store a static manifest XML
-3. A place to host your ROM
-4. Some build.prop entries
+This file needs to be added into http://downloads.blissroms.com/Add-ons/, please look at http://downloads.blissroms.com/Add-ons/addons.xml on how to structure it. You can make your own. The final link will be added into the bottom of ota.xml
 
-# How-to
+# BUILD.PROP Entries
 
-There are two ways you can use this in your ROM. Manually, or automatically with [romhut.com](https://www.romhut.com). Romhut is highly recommended, as it will host your files for you, automate the process somewhat and it's free for users and developers.
-- [Using with romhut.com](Romhut.md)
-- [Using manually](Manually.md)
+If you haven't already, please merge http://review.blissroms.com:8081/#/c/78/ to get the build.prop entries "ro.ota.systemname, ro.ota.version, ro.ota.device, ro.ota.manifest"
 
-# Installing
+# Instructions to compile this app yourself
 
-Be aware, this application is meant for ROM developers. If you are a user wishing to use this application, get in touch with your developer and point them towards this page!
-
-For ROM developers, [see here for installing instructions](Installing.md)
-
-# Usage
-
-Anyone is free to use this project in their ROM. I only request that you keep the about page in-tact leaving my credits in there. You don't have to, but it'd be nice if you did.
-
-I'd also appreciate a tag in your post, wherever you publish :)
-
-# Building
-## Eclipse
-
-To build from source via Eclipse, you need to checkout the [instructions on building](Building.md)
-
-## AOSP
-
-To build from source in your AOSP build, you need to checkout the [instructions on building with AOSP](AOSP_CM.md). There are some advantages of this method, being that this method does not need SU permissions throughout the app.
-
-# Contributions
-
-If you feel like you can contribute to this project, don't hesitate to fork and send me some pull requests.
+https://github.com/Kryten2k35/OTAUpdates/blob/stable/README.md
 
 # Licencing
 
