@@ -22,17 +22,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b102c37-6bc4-477f-8de5-0c6b7acf32a9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Nicholas\Documents\GitHub\OTAUpdates\.idea\libraries\RootTools.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nicholas\Documents\GitHub\OTAUpdates\.idea\libraries\cardview_v7_22_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nicholas\Documents\GitHub\OTAUpdates\.idea\libraries\play_services_6_5_87.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nicholas\Documents\GitHub\OTAUpdates\.idea\libraries\support_annotations_21_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nicholas\Documents\GitHub\OTAUpdates\.idea\libraries\support_v4_21_0_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/Addon.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/Addon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/AddonActivity.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/AddonActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/tasks/AddonXmlParser.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/tasks/AddonXmlParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/receivers/AppReceiver.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/receivers/AppReceiver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/AvailableActivity.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/AvailableActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/uncod/android/bypass/Bypass.java" afterPath="$PROJECT_DIR$/src/in/uncod/android/bypass/Bypass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/uncod/android/bypass/Document.java" afterPath="$PROJECT_DIR$/src/in/uncod/android/bypass/Document.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadAddon.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadAddon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadAddonProgress.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadAddonProgress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadRom.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadRom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadRomProgress.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadRomProgress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/uncod/android/bypass/Element.java" afterPath="$PROJECT_DIR$/src/in/uncod/android/bypass/Element.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/tasks/GenerateRecoveryScript.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/tasks/GenerateRecoveryScript.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/uncod/android/bypass/style/HorizontalLineSpan.java" afterPath="$PROJECT_DIR$/src/in/uncod/android/bypass/style/HorizontalLineSpan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/tasks/LoadUpdateManifest.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/tasks/LoadUpdateManifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/OtaUpdates.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/OtaUpdates.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/utils/Preferences.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/utils/Preferences.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/uncod/android/bypass/ReverseSpannableStringBuilder.java" afterPath="$PROJECT_DIR$/src/in/uncod/android/bypass/ReverseSpannableStringBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/RomUpdate.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/RomUpdate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/tasks/RomXmlParser.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/tasks/RomXmlParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/SettingsActivity.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/SettingsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/utils/Tools.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/utils/Tools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/utils/Utils.java" afterPath="$PROJECT_DIR$/src/com/chummy/blissroms/updates/utils/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/arrays.xml" afterPath="$PROJECT_DIR$/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/attrs.xml" afterPath="$PROJECT_DIR$/res/values/attrs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/card_addons.xml" afterPath="$PROJECT_DIR$/res/layout/card_addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/card_addons_list_item.xml" afterPath="$PROJECT_DIR$/res/layout/card_addons_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/card_app_header.xml" afterPath="$PROJECT_DIR$/res/layout/card_app_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/card_donate.xml" afterPath="$PROJECT_DIR$/res/layout/card_donate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/card_material_background_dark.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/card_material_background_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/card_material_background_light.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/card_material_background_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/card_no_update.xml" afterPath="$PROJECT_DIR$/res/layout/card_no_update.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/card_rom_info.xml" afterPath="$PROJECT_DIR$/res/layout/card_rom_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/card_update.xml" afterPath="$PROJECT_DIR$/res/layout/card_update.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/card_website.xml" afterPath="$PROJECT_DIR$/res/layout/card_website.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/drawable_addon.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/drawable_addon.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/drawable_check.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/drawable_check.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/drawable_donate.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/drawable_donate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/drawable_download.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/drawable_download.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/drawable_website.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/drawable_website.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/material_background_dark.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/material_background_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/material_background_light.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/material_background_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-v21/ota_addon_cancel_button.xml" afterPath="$PROJECT_DIR$/res/layout-v21/ota_addon_cancel_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-v21/ota_addon_delete_button.xml" afterPath="$PROJECT_DIR$/res/layout-v21/ota_addon_delete_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-v21/ota_addon_download_button.xml" afterPath="$PROJECT_DIR$/res/layout-v21/ota_addon_download_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-v21/ota_addons.xml" afterPath="$PROJECT_DIR$/res/layout-v21/ota_addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-v21/ota_available.xml" afterPath="$PROJECT_DIR$/res/layout-v21/ota_available.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-v21/ota_available_menu.xml" afterPath="$PROJECT_DIR$/res/layout-v21/ota_available_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-v21/ota_main.xml" afterPath="$PROJECT_DIR$/res/layout-v21/ota_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/ota_main_actionbar_top.xml" afterPath="$PROJECT_DIR$/res/layout/ota_main_actionbar_top.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/ota_menu_available.xml" afterPath="$PROJECT_DIR$/res/menu/ota_menu_available.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/ota_menu_main.xml" afterPath="$PROJECT_DIR$/res/menu/ota_menu_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/res/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/ripple_selector_dark.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/ripple_selector_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-v21/ripple_selector_light.xml" afterPath="$PROJECT_DIR$/res/drawable-v21/ripple_selector_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-de/strings.xml" afterPath="$PROJECT_DIR$/res/values-de/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-es/strings.xml" afterPath="$PROJECT_DIR$/res/values-es/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-nl/strings.xml" afterPath="$PROJECT_DIR$/res/values-nl/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-pt-rBR/strings.xml" afterPath="$PROJECT_DIR$/res/values-pt-rBR/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-ru/strings.xml" afterPath="$PROJECT_DIR$/res/values-ru/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings_addons.xml" afterPath="$PROJECT_DIR$/res/values/strings_addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings_available.xml" afterPath="$PROJECT_DIR$/res/values/strings_available.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-de/strings_available.xml" afterPath="$PROJECT_DIR$/res/values-de/strings_available.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-es/strings_available.xml" afterPath="$PROJECT_DIR$/res/values-es/strings_available.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-nl/strings_available.xml" afterPath="$PROJECT_DIR$/res/values-nl/strings_available.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-pt-rBR/strings_available.xml" afterPath="$PROJECT_DIR$/res/values-pt-rBR/strings_available.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings_main.xml" afterPath="$PROJECT_DIR$/res/values/strings_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-de/strings_main.xml" afterPath="$PROJECT_DIR$/res/values-de/strings_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-es/strings_main.xml" afterPath="$PROJECT_DIR$/res/values-es/strings_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-nl/strings_main.xml" afterPath="$PROJECT_DIR$/res/values-nl/strings_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-pt-rBR/strings_main.xml" afterPath="$PROJECT_DIR$/res/values-pt-rBR/strings_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings_menu.xml" afterPath="$PROJECT_DIR$/res/values/strings_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-de/strings_menu.xml" afterPath="$PROJECT_DIR$/res/values-de/strings_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-es/strings_menu.xml" afterPath="$PROJECT_DIR$/res/values-es/strings_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-nl/strings_menu.xml" afterPath="$PROJECT_DIR$/res/values-nl/strings_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-pt-rBR/strings_menu.xml" afterPath="$PROJECT_DIR$/res/values-pt-rBR/strings_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings_preferences.xml" afterPath="$PROJECT_DIR$/res/values/strings_preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-de/strings_preferences.xml" afterPath="$PROJECT_DIR$/res/values-de/strings_preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-es/strings_preferences.xml" afterPath="$PROJECT_DIR$/res/values-es/strings_preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-nl/strings_preferences.xml" afterPath="$PROJECT_DIR$/res/values-nl/strings_preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-pt-rBR/strings_preferences.xml" afterPath="$PROJECT_DIR$/res/values-pt-rBR/strings_preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/res/values-v21/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/theme_dark.xml" afterPath="$PROJECT_DIR$/res/values/theme_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/theme_light.xml" afterPath="$PROJECT_DIR$/res/values/theme_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/toolbar_dropshadow.xml" afterPath="$PROJECT_DIR$/res/drawable/toolbar_dropshadow.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OTAUpdates.iws" />
@@ -55,108 +139,7 @@
     <favorites_list name="OTAUpdates" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1734">
-              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tools.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/utils/Tools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2550">
-              <caret line="125" column="30" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings_preferences.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings_preferences.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1122">
-              <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="R.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/com/chummy/blissroms/updates/R.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8" vertical-offset="15377" max-vertical-offset="38029">
-              <caret line="921" column="32" selection-start-line="921" selection-start-column="32" selection-end-line="921" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/SettingsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2992">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OtaUpdates.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/OtaUpdates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="612">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="918">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1037">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AvailableActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/AvailableActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="9044">
-              <caret line="63" column="27" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7859589" vertical-offset="0" max-vertical-offset="7701">
-              <caret line="83" column="78" selection-start-line="83" selection-start-column="78" selection-end-line="83" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -662,7 +645,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1430426824341" />
+        <entry key="$PROJECT_DIR$" value="1430472082173" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -912,16 +895,18 @@
         <option value="$PROJECT_DIR$/src/com/chummy/blissroms/updates/download/DownloadRom.java" />
         <option value="$PROJECT_DIR$/Android.mk" />
         <option value="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/AvailableActivity.java" />
         <option value="$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="153" />
+    <option name="y" value="715" />
     <option name="width" value="2284" />
-    <option name="height" value="1440" />
+    <option name="height" value="1250" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -937,7 +922,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -949,6 +934,31 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OTAUpdates" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OTAUpdates" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OTAUpdates" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -985,188 +995,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="updates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="updates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="updates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAUpdates" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -1181,9 +1009,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OTAUpdates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OTAUpdates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1201,6 +1042,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistoryKey" value="loading&#9;PSI&#9;JAVA://com.chummy.blissroms.updates.R.string#loading&#10;rebooting&#9;PSI&#9;JAVA://com.chummy.blissroms.updates.R.string#rebooting" />
+    <property name="LayoutCode.rearrangeEntries" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1380,12 +1222,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2284" height="1440" extended-state="0" />
+    <frame x="153" y="715" width="2284" height="1250" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32788163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1395,7 +1237,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32788163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50155765" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5011673" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2747302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1436,6 +1278,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="7735">
+          <caret line="83" column="78" selection-start-line="83" selection-start-column="78" selection-end-line="83" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
@@ -1461,13 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1581">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28333333" vertical-offset="0" max-vertical-offset="840">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1781,40 +1624,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/OtaUpdates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="612">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1037">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1734">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1020">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/AvailableActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="9044">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="8993">
+          <caret line="62" column="0" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1829,16 +1656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings_preferences.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1122">
-          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/com/chummy/blissroms/updates/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8" vertical-offset="15377" max-vertical-offset="38029">
-          <caret line="921" column="32" selection-start-line="921" selection-start-column="32" selection-end-line="921" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1105">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1853,8 +1672,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chummy/blissroms/updates/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7859589" vertical-offset="0" max-vertical-offset="7701">
-          <caret line="83" column="78" selection-start-line="83" selection-start-column="78" selection-end-line="83" selection-end-column="78" />
+        <state vertical-scroll-proportion="-57.8" vertical-offset="0" max-vertical-offset="9078">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="374">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1893397" vertical-offset="0" max-vertical-offset="1257">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44550517" vertical-offset="460" max-vertical-offset="1717">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
  	Copyright (C) 2015 Nicholas Chum (nicholaschum) and Matt Booth (Kryten2k35).
  
  	Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
@@ -18,21 +17,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="?attr/cardStyle"
     tools:showIn="@layout/ota_main">
+
     <LinearLayout
         style="@style/MainListElement"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="false"
         android:orientation="vertical"
-        android:weightSum="1"
-        android:clickable="false">
+        android:weightSum="1">
+
         <ImageView
+            android:id="@+id/imageView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:maxWidth="60dip"
-            android:adjustViewBounds="true"
-            android:id="@+id/imageView"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/bliss_logo"
-            android:layout_weight="3.97"/>
+            android:layout_weight="3.97"
+            android:adjustViewBounds="true"
+            android:maxWidth="60dip"
+            android:src="@drawable/bliss_logo" />
     </LinearLayout>
 </android.support.v7.widget.CardView>
