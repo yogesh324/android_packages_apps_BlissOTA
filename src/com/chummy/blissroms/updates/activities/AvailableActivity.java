@@ -61,7 +61,6 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 	public static TextView mProgressCounterText;
 
 	private Builder mDeleteDialog;
-	private Builder mRebootDialog;
 	private Builder mRebootManualDialog;
 	private Builder mNetworkDialog;
 	
