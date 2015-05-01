@@ -17,7 +17,7 @@
     <!-- App Strings -->
     <string name="app_name" translatable="false">Updates</string>
     <string name="prop_name" translatable="false">ro.ota.systemname</string>
-    <string name="app_version" translatable="false">3.0.0</string>
+    <string name="app_version" translatable="false">4.0.0</string>
 
     <!-- Generic strings -->
     <string name="cancel">Cancel</string>
