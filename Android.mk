@@ -24,8 +24,10 @@ cardview_dir := ../../../frameworks/support/v7/cardview
 # Google Play Services Dir
 google_play_dir := ../../../external/google/google_play_services/libproject/google-play-services_lib/res
 
-src_dirs := src src_bypass
-res_dirs := res $(chips_dir) $(cardview_dir)/res $(google_play_dir)
+src_dirs := src src/in/uncod/android/bypass
+#src_bypass 
+res_dirs := res $(cardview_dir)/res $(google_play_dir)
+# $(chips_dir)
 
 LOCAL_SRC_FILES := $(call all-java-files-under, $(src_dirs))
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
@@ -35,7 +37,7 @@ LOCAL_AAPT_FLAGS := \
 	--extra-packages com.google.android.gms \
 	--extra-packages android.support.v7.cardview
 
-LOCAL_PACKAGE_NAME := OTAUpdates
+LOCAL_PACKAGE_NAME := BlissOTA
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
 	RootTools \
@@ -46,7 +48,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 # Create $(TARGET_OUT_SHARED_LIBRARIES) if not already exists,
 # hence prevent build errors.
 $(shell mkdir -p $(TARGET_OUT_SHARED_LIBRARIES))
-$(shell cp $(LOCAL_PATH)/libs/$(TARGET_ARCH_ABI)/libbypass.so $(TARGET_OUT_SHARED_LIBRARIES))
+#$(shell cp $(LOCAL_PATH)/libs/$(TARGET_ARCH_ABI)/libbypass.so $(TARGET_OUT_SHARED_LIBRARIES))
 
 LOCAL_JNI_SHARED_LIBRARIES := libs/$(TARGET_ARCH_ABI)/libbypass
 
