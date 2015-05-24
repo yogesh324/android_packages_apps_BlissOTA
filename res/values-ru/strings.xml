@@ -86,9 +86,6 @@
     <string name="menu_settings">Настройки</string>
     <string name="menu_info">Информация</string>
     <string name="preferences_name">Настройки</string>
-    <string name="download_folder">/sdcard/Download/</string>
-    <string name="list_summary">%s</string>
-    <string name="twrp_ors_cat">Скрипт для рековери</string>
     <string name="twrp_ors_title">Скрипт для рековери</string>
     <string name="twrp_ors_summary">Работает на TWRP и некоторых кастомных рековери на основе CWM</string>
     <string name="twrp_ors_information">Если включить скрипт, ОТА обновление установится автоматически</string>
